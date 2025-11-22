@@ -10,8 +10,10 @@ main {
 article {
     flex: 2;
     overflow-y: auto;
+    background-color: aqua;
 }
 aside {
     flex: 1;
    overflow-y: auto;
+   background-color: lightgray;
 }
