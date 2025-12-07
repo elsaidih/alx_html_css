@@ -1,0 +1,68 @@
+
+.our-results {
+    background: url(/headphones/images/headphones_hero_2.jpg) no-repeat center center;
+    background-size: cover;
+    color: var(--white);
+    padding: 95px 0;
+    text-align: center;
+}
+
+.our-results .section-title {
+    color: var(--white);
+    margin-bottom: 40px;
+}
+
+.our-results .section-description {
+    color: var(--white);
+    margin-bottom: 95px;
+}
+
+.results-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    gap: 95px 58px;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.result-item {
+    text-align: center;
+    transition: var(--transition);
+}
+
+.result-item:hover {
+    transform: scale(1.05);
+}
+
+.pentagon {
+    width: 190px;
+    height: 190px;
+    background: var(--primary-color);
+    clip-path: polygon(50% 0%, 100% 38%, 82% 100%, 18% 100%, 0% 38%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    box-sizing: border-box;
+    color: var(--white);
+    transition: var(--transition);
+    text-align: center;
+}
+
+.result-number {
+    font-size: 46px;
+    font-weight: 700;
+    margin-bottom: 15px;
+}
+
+.result-description {
+    font-size: 14px;
+    line-height: 1.5;
+    opacity: 0.9;
+    margin: 0;
+}
+
+.pentagon:hover {
+    background: var(--primary-dark);
+}

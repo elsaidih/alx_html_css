@@ -1,0 +1,37 @@
+
+/* What We Do Section */
+.services-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 0 58px;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.service-item {
+    text-align: center;
+    transition: var(--transition);
+    padding: 0 20px;
+}
+
+.service-item:hover {
+    transform: translateY(-5px);
+}
+
+/* Our Results Section */
+.results-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    gap: 95px 58px;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.result-item {
+    text-align: center;
+    transition: var(--transition);
+}
+
+.result-item:hover {
+    transform: scale(1.05);
+}
